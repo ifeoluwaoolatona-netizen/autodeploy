@@ -1,0 +1,24 @@
+Sources & Dependencies
+
+Languages & Frameworks
+Python 3.10+ (scripting language).
+Terraform 1.6+ (infrastructure as code).
+Flask (Python web framework, MIT License).
+Node.js 18 LTS (for Node detection, MIT License).
+
+Python Packages
+typer (CLI framework, MIT License).
+jinja2 (templating Terraform and scripts, BSD License).
+subprocess (Python stdlib, for running Terraform).
+requests (HTTP, Apache 2.0 License).
+
+Infrastructure
+AWS EC2 (cloud VM).
+Nginx (reverse proxy, BSD License).
+Gunicorn (WSGI server for Flask, MIT License).
+
+External References
+Terraform AWS Provider Docs: https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+Flask Documentation: https://flask.palletsprojects.com/
+Nginx Docs: https://nginx.org/en/docs/
+AWS EC2 Docs: https://docs.aws.amazon.com/ec2/index.html
