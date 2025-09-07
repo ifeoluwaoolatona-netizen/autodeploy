@@ -1,0 +1,8 @@
+#!/bin/bash
+apt-get update -y
+apt-get install -y python3-pip git
+cd /opt
+git clone {{ repo_url|default("REPO_URL") }} app
+cd app
+pip3 install -r requirements.txt
+nohup {{ start_cmd }} --host=0.0.0.0 --port={{ port|default(5000) }} &
