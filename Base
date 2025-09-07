@@ -1,0 +1,21 @@
+autodeploy/
+├── cli.py
+├── repo_analyzer.py
+├── planner.py
+├── renderer.py
+├── templates/
+│   ├── user_data_flask.sh.j2
+│   ├── user_data_node.sh.j2
+│   ├── ec2_main.tf.j2
+│   └── ecs_main.tf.j2
+├── terraform/
+│   └── modules/
+│       ├── ec2/
+│       │   ├── main.tf
+│       │   ├── variables.tf
+│       │   └── outputs.tf
+│       └── ecs_fargate/
+│           ├── main.tf
+│           ├── variables.tf
+│           └── outputs.tf
+└── requirements.txt
